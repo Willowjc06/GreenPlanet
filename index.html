@@ -6,96 +6,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Chicle&display=swap" rel="stylesheet"> <!--Google font link for the main HEADERS-->
-    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet"> <!--Google font link for the writing-->
+    <!--Google font link for the writing-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 
 
 
-<title>Willow's Portfolio!</title>
-    
-
-
-
+<title>Green Planet</title>
 </head>
 
-<body>
-
-
-  <div class="page-header-bar text-center">
-  <h1>About Me</h1>
-</div>
 
 
 <header>
-
-
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-      <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/my-work.html">My Work</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/reflection.html">Reflection</a>
-        </li>
-      </ul>
-    </div>
-
+  <div class="page-header-bar text-center">
+    <h1 class="benchnine-bold"><a href="./">Green Planet</a></h1>
   </div>
-</nav>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
 
+        </ul>
+      </div>
+    </div>
+  </nav>
 </header>
 
 
 
-<main>
-  <div class="about-me-container container-fluid">
-  <p class="about-me-text"> 
-      Hello, my name is Willow, I am a student from University of the West of England,
-      I am currently studying digital media as  first year student and within this course I have four modules to complete:
-      Introduction to Creative Coding, Graphic and Web Design Studio, Media Studio and Principles of 3D Environments.
-  </p>
-  </div>
-
-  <div class="container-fluid">
-    <div class="row g-4">
-    <div class="col-12 col-md-3">
-      <img src="images/blue.png" class="img-fluid about-me-image image-1" alt="Willow Image 1">
-      <div class="image-caption">Repetition</div>
-    </div>
-
-    <div class="col-12 col-md-3">
-      <img src="images/orange.png" class="img-fluid about-me-image image-2" alt="Willow Image 2">
-      <div class="image-caption">Radial</div>
-    </div>
-
-    <div class="col-12 col-md-3">
-      <img src="images/purple.png" class="img-fluid about-me-image image-3" alt="Willow Image 3">
-      <div class="image-caption">Emphasis</div>
-    </div>
-
-    <div class="col-12 col-md-3">
-      <div class="about-images-container">
-      <div class="about-images-text">Within the Graphic and Web Design module, we have been tasked by our module leaders to develop three graphic compositions based off of the Gestalt Principals, to be made using Figma, and the skills we had learnt.
-        Using the pen tool, I created my own.
-      </div>
-      </div>
-    </div>
-    </div>
-  </div>
+<body>
   
-</main>
+  <div class="page-container container-fluid">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/veganfood1.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/veganfood2.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/veganfood3.jpeg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="row about-us-container">
+      <p class="col about-us-text benchnine-light">
+        Green Planet is a new resaurant located in the heart of Bristol city centre, dedicated to serving you fresh,
+        delicious,
+        organic and all sustainable food. Our aim is to provide our costumers with a unique dining experience, dedicating
+        our resources to those who often get forgotten about within the food industry.
+      </p>
+    </div>
+
+    <img src="./images/leaf_texture.jpeg" class="row texture-break d-block w-100" alt="...">
+
+
+    <p class="col about-food-text">
+      jhgregrjegerjnegjngrejnerge
+    </p>
+
+
+  </div>
+</body>
 
        
 
