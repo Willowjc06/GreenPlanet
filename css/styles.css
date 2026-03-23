@@ -22,6 +22,9 @@ body {
 
 a {
     color: black;
+}
+
+#page-title {
     text-decoration: none;
 }
 
@@ -32,12 +35,13 @@ h1 {
 .about-us-container {
     margin: 0;
     margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .about-us-text {
     font-size: x-large;
     text-align: left;
-    background: #6aa663;
+    background: #80c878;
     padding: 6px;
     border-radius: 5px;
 }
