@@ -93,3 +93,13 @@ nav {
     border-radius: 5px;
 }
 
+.carousel {
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        width: 100%;
+    }
+}

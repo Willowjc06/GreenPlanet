@@ -11,7 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="script.js"></script>
 
 
 <title>Green Planet</title>
@@ -52,7 +53,7 @@
   </header>
   
   <div class="page-container container-fluid">
-    <div id="carouselExampleIndicators" class="carousel slide">
+    <div id="carouselExampleIndicators" class="carousel slide hero-image">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
@@ -63,7 +64,7 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./images/veganfood1.jpeg" class="d-block w-100" alt="...">
+          <img id="menu1image" src="./images/veganfood1.jpeg" class="d-block w-100 " alt="...">
         </div>
         <div class="carousel-item">
           <img src="./images/veganfood2.jpeg" class="d-block w-100" alt="...">
@@ -82,7 +83,7 @@
       </button>
     </div>
     <div class="row about-us-container">
-      <p class="col about-us-text benchnine-light">
+      <p class="col about-us-text benchnine-light about-us-slide-left">
         Green Planet is a new resaurant located in the heart of Bristol city centre, dedicated to serving you fresh,
         delicious,
         organic and all sustainable food. Our aim is to provide our costumers with a unique dining experience, dedicating
@@ -93,7 +94,7 @@
     <img src="./images/leaf_texture.jpeg" class="row texture-break d-block w-100" alt="...">
 
     <div class="row about-us-container"></div>
-      <p class="col about-us-text benchnine-light">
+      <p class="col about-us-text benchnine-light about-us-slide-right">
         Our menu was carefully crafted to include a varierty of vegan cuisines, with the aim of showing our customers that vegan food can be exciting.
         We have various different dishes on the menu, including our one-of-a-kind all-vegan desserts. <a href="menu.html">You can explore our menu here.</a>
       </p>
@@ -104,7 +105,7 @@
   <div class="container footer-container">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
       <p class="col-md-4 mb-0 text-body-secondary">
-        &copy; 2026 Green Planet
+        &copy; <span id="year"></span> Green Planet
       </p>
       <a href="/"
         class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
