@@ -98,6 +98,22 @@ nav {
     margin: 0 auto;
 }
 
+.find-us-container {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.find-us-container {
+        font-size: x-large;
+        text-align: left;
+        background: #80c878;
+        border-radius: 2px;
+        text-align: center;
+}
+
 @media (max-width: 768px) {
     .carousel {
         width: 100%;
